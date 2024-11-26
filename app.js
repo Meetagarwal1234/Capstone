@@ -6,7 +6,7 @@ const app = express();
 const passport = require('./config/passport');
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb+srv://meetagarwal2003:wJHynMfUfdBuo4Ct@cluster0.m9hhq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://mohitkhandelwal290:WRTm8Km2L0LfXrdC@cluster0.us2md44.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
