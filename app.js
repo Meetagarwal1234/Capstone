@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
     session({
-        secret: 'your_secret_key',
+        secret: 'SECRET',
         resave: false,
         saveUninitialized: false,
     })
@@ -28,7 +28,7 @@ app.use(passport.session());
 
 const serviceRoutes = require('./routes/services');
 const memberRoutes = require('./routes/member');
-const loanRoutes = require('./routes/loans');
+const loanRoutes = require('./routes/request');
 app.use('', serviceRoutes);
 app.use('', memberRoutes);  // Only use this line once
 app.use('', loanRoutes);  // Make sure you're using this as well

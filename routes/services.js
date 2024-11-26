@@ -1,8 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const Service = require('../models/Service');
-const Request = require('../models/Request');
+const Service = require('../models/service');
+const Request = require('../models/request');
 const servicesController=require('../controller/services')
+
 // Route 1: Get all services
 router.get('/allservices', servicesController.getAll);
 
