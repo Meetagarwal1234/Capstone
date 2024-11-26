@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-// const session = require('express-session');
+const session = require('express-session');
 const app = express();
 const passport = require('./config/passport');
 app.use(bodyParser.json());
