@@ -1,6 +1,7 @@
 {
-  "name": "capstone",
+  "name": "nodecapst",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,10 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "body-parser": "^1.20.3",
+    "ejs": "^3.1.10",
     "express": "^4.21.1",
-    "mongoose": "^8.8.3"
+    "mongoose": "^8.8.2"
   }
 }
